@@ -2,9 +2,7 @@ let pwdSecret = parseInt(Math.random() * (999 - 100) + 100);
 
 console.log(pwdSecret);
 
-
 let i = 3;
-
 while (i > 0) {
 
     let secretInput = parseInt(prompt("Introduce la contraseña. Tienes " + i + " intentos:"));
