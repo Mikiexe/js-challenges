@@ -21,7 +21,8 @@ switch (signArit) {
         let divisionResult = (firstOperand / secondOperand);
         console.log("Your choice was division. The result is " + divisionResult);
         break;
-    case "^":
+    case "^":ç
+    
         let raisedToResult = (firstOperand ** secondOperand);
         console.log("Your choice was raise to. The result is " + raisedToResult);
         break;
