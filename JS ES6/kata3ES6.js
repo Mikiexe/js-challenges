@@ -1,9 +1,31 @@
 let numeroUsuario = parseInt(prompt("Introduce un número para descubrir si es primo: "));
 
-const calcPrimo = (numero) => {
+console.log(numeroUsuario);
 
-    if ( numero % 2 === 0) {
-        
-    }
 
+const calcPrimo = (numeroMax) => {
+
+    let numeroInicial = 0;
+
+    while (numeroInicial < numeroMax) {
+        console.log("numeroInicial");
+        for (let i = 2; i <= numeroInicial; i++) {
+
+            if (numeroInicial % i == 0) {
+                return console.log("no primo");
+            } else {
+                return console.log("primo" + numeroInicial);
+            };
+        };
+
+        numeroUsuario++;
+    };
+};
+
+let numeroInicial = 0;
+
+while (numeroInicial < numeroUsuario) {
+    console.log(numeroInicial);
+
+    numeroUsuario++;
 }
